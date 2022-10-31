@@ -1,19 +1,27 @@
+:root {
+  --header: #33658a;
+  --primary: #A9927D;
+  --secondary: #b47eb3;
+}
+
+
 body {
     font-family: Arial, Helvetica, sans-serif;
+    background-color: var(--primary);
+    width: auto;
+    
+  }
+  main {
+    max-width: 1200px;
+    margin: auto;
+    
   }
   
-  .mobile-container {
-    max-width: 480px;
-    margin: auto;
-    background-color: #555;
-    height: 500px;
-    color: white;
-    border-radius: 10px;
-  }
+ 
   
   .topnav {
     overflow: hidden;
-    background-color: #333;
+    background-color: var(--secondary);
     position: relative;
   }
   
@@ -43,6 +51,27 @@ body {
   }
   
   .active {
-    background-color: #04AA6D;
+    background-color: var(--header);
     color: white;
+  }
+
+
+  .welcome {
+    margin-top: 10%;
+    margin-left: 10%;
+    margin-right: 10%;
+  }
+.about-me {
+  margin-left: 10%;
+  margin-right: 10%;
+  margin-bottom: 10px;
+}
+  #about-me {
+    border: solid 2px black;
+    border-radius: 10px;
+  }
+  .contact {
+    margin-left: 10%;
+    margin-right: 10%;
+    justify-content: center;
   }

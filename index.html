@@ -5,10 +5,10 @@
     <link rel="normalize" href="assets/normalize.css">
     <link rel="stylesheet" href="assets/stylesheet.css">
     <link rel="stylesheet" href=""><!--link hamburger icon-->
-    <title>Sky's Portfolio</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>Sky's Portfolio</title>
     <script>
-    /* Toggle between showing and hiding the navigation menu links when the user clicks on the hamburger menu / bar icon */
+    /* Toggle between showing and hiding the navigation menu links when the user clicks on the hamburger menu / bar icon  Special thanks to w3schools for helping with this*/
         function myFunction() {
           var x = document.getElementById("myLinks");
           if (x.style.display === "block") {
@@ -26,9 +26,9 @@
      <a href="#home" class="active">Logo</a>
     <!-- Navigation links (hidden by default) -->
     <div id="myLinks">
-        <a href="#news">about me</a>
+        <a href="#about-me">about me</a>
         <a href="#contact">contact</a>
-        <a href="#about">portfolio</a>
+        <a href="#portfolio">portfolio</a>
     </div>
     <!-- "Hamburger menu" / "Bar icon" to toggle the navigation links -->
     <a href="javascript:void(0);" class="icon" onclick="myFunction()">
@@ -36,3 +36,38 @@
     </a>
   </div>
 </Header>
+
+<!-- Main content area-->
+<main>
+  <!--spotlight, hero, what have you. Either way this section is the landing portion that's supposed to be fluff.-->
+  <section class="welcome">
+      <h1>Something about a portfolio</h1>
+      <h2>I can do things</h2>
+      <p>Welcome to my portfolio! Take a look around and see what I can do?</p>
+  </section>
+  <!--Bio and contact information. As there's a contact form I think the contact here is redundant but it does serve to direct users to the contact form to get in touch-->
+  <section class="about-me" id="about-me">
+    <figure>
+      <img src="" alt="It's a me, Skylar.">
+    </figure>
+    <p>Name: Skylar Fynboh</p>
+    <p>Contact: Fill out the form below and I will contact you at my earliest convienience.</p>
+    <p>Bio: I'll fill this out once everything else is built up.</p>
+
+  </section>
+  <!--contact form-->
+  <section class="contact" id="contact">
+    <form action="">
+      <input type="text" id="name" name="name" placeholder="name"><br>
+      <input type="text" id="email" name="email" placeholder="email"><br>
+      <input type="text" id="subject" name="subject" placeholder="subject"><br>
+      <input type="text" id="message" name="message" placeholder="message"><br>
+      <button>Submit</button>
+
+    </form>
+  </section id="portfolio">
+<!--portfolio-->
+  <section>
+
+  </section>
+</main>
