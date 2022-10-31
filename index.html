@@ -1,4 +1,38 @@
 <!DOCTYPE html>
 <head>
-    
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="normalize" href="assets/normalize.css">
+    <link rel="stylesheet" href="assets/stylesheet.css">
+    <link rel="stylesheet" href=""><!--link hamburger icon-->
+    <title>Sky's Portfolio</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script>
+    /* Toggle between showing and hiding the navigation menu links when the user clicks on the hamburger menu / bar icon */
+        function myFunction() {
+          var x = document.getElementById("myLinks");
+          if (x.style.display === "block") {
+            x.style.display = "none";
+          } else {
+            x.style.display = "block";
+          }
+        }</script>
 </head>
+
+<Header>
+    <!--Insert logo aligned left, hamburger aligned right-->
+    <!-- Top Navigation Menu -->
+<div class="topnav">
+     <a href="#home" class="active">Logo</a>
+    <!-- Navigation links (hidden by default) -->
+    <div id="myLinks">
+        <a href="#news">about me</a>
+        <a href="#contact">contact</a>
+        <a href="#about">portfolio</a>
+    </div>
+    <!-- "Hamburger menu" / "Bar icon" to toggle the navigation links -->
+    <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+        <i class="fa fa-bars"></i>
+    </a>
+  </div>
+</Header>
