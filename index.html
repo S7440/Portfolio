@@ -1,4 +1,90 @@
 <!DOCTYPE html>
 <head>
-    
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="normalize" href="assets/normalize.css">
+    <link rel="stylesheet" href="assets/stylesheet.css">
+    <link rel="stylesheet" href=""><!--link hamburger icon-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>Sky's Portfolio</title>
 </head>
+
+<Header class="primary-header">
+    <!-- Top Navigation Menu -->
+<div class="topnav">
+     <a href="#home"><img src="assets\media\photos\received_473730827922443.webp" alt="logo" height="50px"width="auto" class="navlogo"></a>
+    <!-- Navigation links (hidden by default) -->
+    <div id="myLinks">
+        <a href="#about-me">about me</a>
+        <a href="#contact">contact</a>
+        <a href="#portfolio">portfolio</a>
+    </div>
+    <!-- "Hamburger menu" / "Bar icon" to toggle the navigation links -->
+    <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+        <i class="fa fa-bars"></i>
+    </a>
+  </div>
+</Header>
+
+<!-- Main content area-->
+<main>
+  <!--spotlight, hero, what have you. Either way this section is the landing portion that's supposed to be fluff.-->
+  <section class="spotlight" id="imagecontainer">
+    <section>
+      <h1>Something about a portfolio</h1>
+      <h2>I can do things</h2>
+      <p>Welcome to my portfolio! Take a look around and see what I can do?</p>
+    </section>
+  </section>
+  <!--Bio and contact information. As there's a contact form I think the contact here is redundant but it does serve to direct users to the contact form to get in touch-->
+  <section class="container" id="about-me">
+    <figure>
+      <img src="assets\media\photos\PSX_20220310_093612.jpg" alt="It's a me, Skylar." id="sky">
+    </figure>
+    <h2>About Me</h2>
+    <p><strong>Name:</strong> Skylar Fynboh</p>
+    <p><strong>Contact:</strong> Fill out the form below and I will contact you at my earliest convienience.</p>
+    <p><strong>Bio:</strong> I like learning a bunch and being a bit of a goof. 
+    I've enjoyed web design for a while and would generally associate my desire
+    to learn how to code stems from knowing that my website at work could do 
+    things and being told we could not do said thing.</p>
+
+  </section>
+  <!--contact form-->
+  <section class="container" id="contact">
+    <section>
+      <h2>Need to get in touch?</h2>
+      <p>Fill out the form and I'll respond in the order recieved.</p>
+    </section> 
+    <section class="contact-form">
+      <form action="contact">
+        <input type="text" id="name" name="name" placeholder="name"><br>
+        <input type="text" id="email" name="email" placeholder="email"><br>
+        <input type="text" id="subject" name="subject" placeholder="subject"><br>
+        <textarea id="message" name="message" placeholder="message"></textarea><br>
+        <button>Submit</button>
+  
+      </form>
+    </section>
+  </section>
+<!--portfolio-->
+  <section class="flexcontainer" id="portfolio">
+    <section class="port-card" id="imagecontainer">
+      <h3>Refactoring code</h3>
+      <p>In this piece of work I refactored code. <br> BOOOORRRING!!!!<br>But ya know if you check it's responsiveness that's not on me. Thats on their last guy.</p>
+      <button><a href="https://s7440.github.io/Mod-01/">Check it out!</a></button>
+      <background>
+    </section>
+
+  </section>
+  <script>
+    /* Toggle between showing and hiding the navigation menu links when the user clicks on the hamburger menu / bar icon  Special thanks to w3schools for helping with this*/
+        function myFunction() {
+          var x = document.getElementById("myLinks");
+          if (x.style.display === "block") {
+            x.style.display = "none";
+          } else {
+            x.style.display = "block";
+          }
+        }</script>
+</main>

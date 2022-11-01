@@ -1,0 +1,124 @@
+:root {
+  --header: #33658a;
+  --primary: #A9927D;
+  --secondary: #b47eb3;
+}
+
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: var(--primary);
+    width: auto;
+    
+  }
+  main {
+    margin-left: 2%;
+    margin-right: 2%;
+    
+  }
+  
+/*Primary header for site navigation. Need to figure out why header isn't the right height.
+  Need to make logo selectable for home.
+  Need to make header sticky.
+  */
+  .primary-header {
+
+  }
+    .topnav {
+      overflow: hidden;
+      background-color: var(--header);
+      position: relative;
+    }
+    
+    .topnav #myLinks {
+      display: none;
+    }
+    
+    .topnav a {
+      
+      color: var(--primary);
+      padding: 14px 16px;
+      text-decoration: none;
+      font-size: 17px;
+      display: block;
+    }
+    
+    .topnav a.icon {
+      background: white);
+      display: block;
+      position: absolute;
+      right: 0;
+      top: 0;
+    }
+    .navlogo {
+      display: block;
+      position: absolute;
+      top: 0;
+      left: 0;
+    }
+    .topnav a:hover {
+      background-color: var(--primary);
+      color: black;
+    }
+    
+    .active {
+      background-color: var(--header);
+      color: var(--header);
+    }
+    
+  
+  
+
+.spotlight {
+  margin-top: 30%;
+  margin-left: 10%;
+  margin-right: 10%;
+  margin-bottom: 10%;
+  color: var(--primary);
+
+}
+
+#sky {
+  width: 150px;
+  height: auto;
+  border-radius: 100px;
+  position:relative;
+  float: left;
+  padding: 20px;
+}
+.container {
+  padding: 10px;
+  margin-left: 10%;
+  margin-right: 10%;
+  margin-bottom: 35px;
+  justify-content: center;
+  border: solid 2px;
+  border-radius: 10px;
+  box-shadow: 5px 10px var(--header);
+}
+
+/*Portfolio container styling stuff*/
+.flexcontainer{
+  padding: 10px;
+  margin-left: 10%;
+  margin-right: 10%;
+  margin-bottom: 35px;
+  justify-content: center;
+  border: solid 2px;
+  border-radius: 10px;
+  box-shadow: 5px 10px var(--header);
+  display: flex;
+}
+.port-card {
+  color: white;
+  flex-direction: column;
+  flex-grow: 1;
+
+}
+#imagecontainer {
+  background: url("https://cdn.vox-cdn.com/thumbor/fX9onefrTRueVVozZ1s7XlIQpps=/0x0:220x122/1400x1050/filters:focal(93x44:127x78):format(gif)/cdn.vox-cdn.com/uploads/chorus_image/image/71396949/50BCC55B_A4ED_48A3_946F_F07D8093B244.0.gif") no-repeat;
+  width: auto;
+  height: 200px;
+  border: 1px solid;
+  background-size: contain:border;
+}
