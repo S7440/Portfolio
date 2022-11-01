@@ -40,34 +40,46 @@
 <!-- Main content area-->
 <main>
   <!--spotlight, hero, what have you. Either way this section is the landing portion that's supposed to be fluff.-->
-  <section class="welcome">
+  <sectionc class="ahhhhhh">
+    <section class="welcome">
       <h1>Something about a portfolio</h1>
       <h2>I can do things</h2>
       <p>Welcome to my portfolio! Take a look around and see what I can do?</p>
+    </section>
   </section>
   <!--Bio and contact information. As there's a contact form I think the contact here is redundant but it does serve to direct users to the contact form to get in touch-->
-  <section class="about-me" id="about-me">
+  <section class="container" id="about-me">
     <figure>
-      <img src="" alt="It's a me, Skylar.">
+      <img src="assets\media\photos\PSX_20220310_093612.jpg" alt="It's a me, Skylar." id="sky">
     </figure>
-    <p>Name: Skylar Fynboh</p>
-    <p>Contact: Fill out the form below and I will contact you at my earliest convienience.</p>
-    <p>Bio: I'll fill this out once everything else is built up.</p>
+    <h2>About Me</h2>
+    <p><strong>Name:</strong> Skylar Fynboh</p>
+    <p><strong>Contact:</strong> Fill out the form below and I will contact you at my earliest convienience.</p>
+    <p><strong>Bio:</strong> I like learning a bunch and being a bit of a goof. 
+    I've enjoyed web design for a while and would generally associate my desire
+    to learn how to code stems from knowing that my website at work could do 
+    things and being told we could not do said thing.</p>
 
   </section>
   <!--contact form-->
-  <section class="contact" id="contact">
-    <form action="">
-      <input type="text" id="name" name="name" placeholder="name"><br>
-      <input type="text" id="email" name="email" placeholder="email"><br>
-      <input type="text" id="subject" name="subject" placeholder="subject"><br>
-      <input type="text" id="message" name="message" placeholder="message"><br>
-      <button>Submit</button>
-
-    </form>
-  </section id="portfolio">
+  <section class="container" id="contact">
+    <section>
+      <h2>Need to get in touch?</h2>
+      <p>Fill out the form and I'll respond in the order recieved.</p>
+    </section> 
+    <section class="contact-form">
+      <form action="contact">
+        <input type="text" id="name" name="name" placeholder="name"><br>
+        <input type="text" id="email" name="email" placeholder="email"><br>
+        <input type="text" id="subject" name="subject" placeholder="subject"><br>
+        <textarea id="message" name="message" placeholder="message"></textarea><br>
+        <button>Submit</button>
+  
+      </form>
+    </section>
+  </section>
 <!--portfolio-->
-  <section>
+  <section class="container" id="portfolio">
 
   </section>
 </main>

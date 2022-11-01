@@ -17,7 +17,7 @@ body {
     
   }
   
- 
+
   
   .topnav {
     overflow: hidden;
@@ -57,21 +57,59 @@ body {
 
 
   .welcome {
-    margin-top: 10%;
+    margin-top: 30%;
     margin-left: 10%;
     margin-right: 10%;
+    margin-bottom: 10%;
+
+  }
+  .ahhhhhh {
+    background-image: url("elmo-on-fire-funny.gif");
+    background-color: transparent;
   }
 .about-me {
-  margin-left: 10%;
-  margin-right: 10%;
-  margin-bottom: 10px;
+
+
+  
 }
   #about-me {
-    border: solid 2px black;
-    border-radius: 10px;
+    
   }
   .contact {
+    padding: 10px;
     margin-left: 10%;
     margin-right: 10%;
     justify-content: center;
+    border: solid 2px;
+    border-radius: 10px;
+    box-shadow: 5px 10px var(--header);
+  
   }
+.contact-form {
+  flex: auto;
+}
+
+form {
+  text-align: left
+
+  
+}
+
+#sky {
+  width: 150px;
+  height: auto;
+  border-radius: 100px;
+  position:relative;
+  float: left;
+  padding: 20px;
+}
+.container {
+  padding: 10px;
+  margin-left: 10%;
+  margin-right: 10%;
+  margin-bottom: 35px;
+  justify-content: center;
+  border: solid 2px;
+  border-radius: 10px;
+  box-shadow: 5px 10px var(--header);
+}
