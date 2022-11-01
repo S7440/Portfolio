@@ -16,7 +16,13 @@ body {
     margin-right: 2%;
     
   }
-  
+  button {
+    padding: 18px 41px;
+    border: 2px solid var(--secondary);
+    text-align: center;
+    border-radius: 4px;
+    
+  }
 /*Primary header for site navigation. Need to figure out why header isn't the right height.
   Need to make logo selectable for home.
   Need to make header sticky.
@@ -113,12 +119,14 @@ body {
   color: white;
   flex-direction: column;
   flex-grow: 1;
+  padding: 25px;
 
 }
 #imagecontainer {
   background: url("https://cdn.vox-cdn.com/thumbor/fX9onefrTRueVVozZ1s7XlIQpps=/0x0:220x122/1400x1050/filters:focal(93x44:127x78):format(gif)/cdn.vox-cdn.com/uploads/chorus_image/image/71396949/50BCC55B_A4ED_48A3_946F_F07D8093B244.0.gif") no-repeat;
   width: auto;
-  height: 200px;
+  height: auto;
   border: 1px solid;
+  border-radius: 10px;
   background-size: contain:border;
 }
