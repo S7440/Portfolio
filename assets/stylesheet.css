@@ -56,6 +56,7 @@ body,html {
   
 
 /* The hero image */
+/*w3 schools helped me figure out how to get the hero to display right*/
 .hero {
   position: relative;
   border-radius: 0 10px 10px 0;
