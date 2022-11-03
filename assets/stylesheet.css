@@ -16,19 +16,33 @@ body,html {
   Need to make logo selectable for home.
   Need to make header sticky.
   */
+  h1 {
+    float: left;
+    font-size: 48px;
+    color: var(--primary);
+    padding-left: 2%;
+  }
+  button {
+    padding: 10px;
+    margin: 10px 0 10px 0;
+  }
   .primary-header {
+    
   overflow: hidden;
   background-color: var(--header);
+  flex-wrap: wrap;
   justify-content: space-between;
   }
   .header-nav {
-    float: left;
+    float: right;
+    align-items: center;
     color: var(--primary);
     text-align: center;
     padding:10px;
     text-decoration: none;
-    font-size: 16px;
+    font-size: 26px;
     border: var(--primary);
+    
   }
   .header-nav a:hover {
     background-color: var(--primary);
@@ -42,23 +56,21 @@ body,html {
   
 
 /* The hero image */
-.hero-image {
-  /* Use "linear-gradient" to add a darken background effect to the image (photographer.jpg). This will make the text easier to read */
-  background-image: url("assets/media/photos/PSX_20220310_093612.jpg");
-  height: 50%;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
+.hero {
   position: relative;
+  border-radius: 0 10px 10px 0;
 }
-.hero-text {
+.hero-overlay {
   text-align: left;
   position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
+  z-index: 0;
+  padding-top: 30%;
+  padding-left: 10%;
+  padding-bottom: 10%;
   color: white;
+
 }
+
 #sky {
   width: 150px;
   height: auto;
@@ -71,7 +83,8 @@ body,html {
   padding: 10px;
   margin-left: 10%;
   margin-right: 10%;
-  margin-bottom: 35px;
+  margin-top: 5%;
+  margin-bottom: 5%;
   justify-content: center;
   border: solid 2px;
   border-radius: 10px;
@@ -89,13 +102,13 @@ body,html {
   border-radius: 10px;
   box-shadow: 5px 10px var(--header);
   display: flex;
-  flex-flow: column;
+  flex-wrap: wrap;
 }
 .port-card {
+  flex-basis: 100%;
   color: white;
-  flex-direction: column;
-  flex-grow: 1;
   padding: 25px;
+  margin: 2%;
 
 }
 .port-card2 {
@@ -103,6 +116,7 @@ body,html {
   flex-direction: column;
   flex-grow: 1;
   padding: 25px;
+  margin: 2%;
 
 }
 #imagecontainer {
@@ -112,4 +126,9 @@ body,html {
   object-fit: fill;
   border: 1px solid;
   border-radius: 10px;
+}
+footer {
+  background-color: var(--header);
+  text-align: center;
+  padding:10%
 }
