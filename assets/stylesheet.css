@@ -13,8 +13,7 @@ body,html {
   }
 
 /*Primary header for site navigation. Need to figure out why header isn't the right height.
-  Need to make logo selectable for home.
-  Need to make header sticky.
+  
   */
   h1 {
     float: left;
