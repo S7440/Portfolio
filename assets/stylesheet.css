@@ -5,82 +5,69 @@
 }
 
 
-body {
+body,html {
     font-family: Arial, Helvetica, sans-serif;
     background-color: var(--primary);
-    width: auto;
+    
     
   }
-  main {
-    margin-left: 2%;
-    margin-right: 2%;
-    
-  }
-  button {
-    padding: 18px 41px;
-    border: 2px solid var(--secondary);
-    text-align: center;
-    border-radius: 4px;
-    
-  }
+
 /*Primary header for site navigation. Need to figure out why header isn't the right height.
   Need to make logo selectable for home.
   Need to make header sticky.
   */
-  .primary-header {
-
+  h1 {
+    float: left;
+    font-size: 48px;
+    color: var(--primary);
+    padding-left: 2%;
   }
-    .topnav {
-      overflow: hidden;
-      background-color: var(--header);
-      position: relative;
-    }
+  button {
+    padding: 10px;
+    margin: 10px 0 10px 0;
+  }
+  .primary-header {
     
-    .topnav #myLinks {
-      display: none;
-    }
+  overflow: hidden;
+  background-color: var(--header);
+  flex-wrap: wrap;
+  justify-content: space-between;
+  }
+  .header-nav {
+    float: right;
+    align-items: center;
+    color: var(--primary);
+    text-align: center;
+    padding:10px;
+    text-decoration: none;
+    font-size: 26px;
+    border: var(--primary);
     
-    .topnav a {
-      
-      color: var(--primary);
-      padding: 14px 16px;
-      text-decoration: none;
-      font-size: 17px;
-      display: block;
-    }
-    
-    .topnav a.icon {
-      background: white);
-      display: block;
-      position: absolute;
-      right: 0;
-      top: 0;
-    }
-    .navlogo {
-      display: block;
-      position: absolute;
-      top: 0;
-      left: 0;
-    }
-    .topnav a:hover {
-      background-color: var(--primary);
-      color: black;
-    }
-    
-    .active {
-      background-color: var(--header);
-      color: var(--header);
-    }
-    
-  
+  }
+  .header-nav a:hover {
+    background-color: var(--primary);
+    color: white;
+  }
+  .header-nav a:active {
+    background-color: var(--secondary);
+    color: white;
+  }
+
   
 
-.spotlight {
-  margin-top: 30%;
-  margin-left: 10%;
-  margin-right: 10%;
-  margin-bottom: 10%;
-  color: var(--primary);
+/* The hero image */
+.hero {
+  position: relative;
+  border-radius: 0 10px 10px 0;
+}
+.hero-overlay {
+  text-align: left;
+  position: absolute;
+  z-index: 0;
+  padding-top: 30%;
+  padding-left: 10%;
+  padding-bottom: 10%;
+  color: white;
 
 }
 
@@ -96,7 +83,8 @@ body {
   padding: 10px;
   margin-left: 10%;
   margin-right: 10%;
-  margin-bottom: 35px;
+  margin-top: 5%;
+  margin-bottom: 5%;
   justify-content: center;
   border: solid 2px;
   border-radius: 10px;
@@ -114,19 +102,33 @@ body {
   border-radius: 10px;
   box-shadow: 5px 10px var(--header);
   display: flex;
+  flex-wrap: wrap;
 }
 .port-card {
+  flex-basis: 100%;
+  color: white;
+  padding: 25px;
+  margin: 2%;
+
+}
+.port-card2 {
   color: white;
   flex-direction: column;
   flex-grow: 1;
   padding: 25px;
+  margin: 2%;
 
 }
 #imagecontainer {
   background: url("https://cdn.vox-cdn.com/thumbor/fX9onefrTRueVVozZ1s7XlIQpps=/0x0:220x122/1400x1050/filters:focal(93x44:127x78):format(gif)/cdn.vox-cdn.com/uploads/chorus_image/image/71396949/50BCC55B_A4ED_48A3_946F_F07D8093B244.0.gif") no-repeat;
-  width: auto;
-  height: auto;
+  width: max-content;
+  height: max-content;
+  object-fit: fill;
   border: 1px solid;
   border-radius: 10px;
-  background-size: contain:border;
+}
+footer {
+  background-color: var(--header);
+  text-align: center;
+  padding:10%
 }
