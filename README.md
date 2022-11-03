@@ -11,11 +11,11 @@ This portfolio offers a glimpse into the talents offered by me, Sky. While there
 Basically just scroll and click things I guess. It's fairly responsive? Check that out I guess?
 
     ```md
-    ![web page](assets\media\photos\screencapture-s7440-github-io-Portfolio-2022-11-03-17_31_16.png)
+    ![web page](assets/media/photos/screencapture-s7440-github-io-Portfolio-2022-11-03-17_31_16.png)
     ```
     
     ```md
-    ![web page mobile](assets\media\photos\screencapture-s7440-github-io-Portfolio-2022-11-03-17_35_36.png" alt="web page mobile)
+    ![web page mobile](assets/media/photos/screencapture-s7440-github-io-Portfolio-2022-11-03-17_35_36.png)
     ```  
 
 ## Credits
