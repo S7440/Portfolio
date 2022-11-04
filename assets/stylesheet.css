@@ -15,39 +15,58 @@ body,html {
 /*Primary header for site navigation. Need to figure out why header isn't the right height.
   
   */
+  header {
+    display: flex
+    flex:block
+  }
   h1 {
-    float: left;
     font-size: 48px;
     color: var(--primary);
+    padding-top: 2%;
     padding-left: 2%;
+  }
+  a {
+    text-decoration: none;
+    color: black;
   }
   button {
     padding: 10px;
-    margin: 10px 0 10px 0;
+    margin: 10px 10px 10px 0;
+    background-color: var(--primary);
+    color: black;
+    border-radius: 14px;
+    box-shadow: 5px 5px var(--header);
+  }
+  button a {
+    color: black
+  }
+  button:hover {
+    background-color: var(--secondary);
   }
   .primary-header {
-    
-  overflow: hidden;
   background-color: var(--header);
   flex-wrap: wrap;
-  justify-content: space-between;
-  }
-  .header-nav {
-    float: right;
-    align-items: center;
-    color: var(--primary);
-    text-align: center;
-    padding:10px;
-    text-decoration: none;
-    font-size: 26px;
-    border: var(--primary);
+  flex-direction: row;
+  align-content: center;
+  justify-content: flex-start;
+  
+}
+.header-nav {;
+  color: var(--primary);
+  text-align: end;
+  align-items:center;  
+  text-decoration: none;
+  font-size: 26px;
+  padding: 25px;
     
   }
   .header-nav a:hover {
+    padding: 10px;
     background-color: var(--primary);
     color: white;
   }
   .header-nav a:active {
+    padding: 10px;
     background-color: var(--secondary);
     color: white;
   }
@@ -131,5 +150,6 @@ body,html {
 footer {
   background-color: var(--header);
   text-align: center;
-  padding:10%
+  padding: 30px;
+  margin-top: 10%;
 }

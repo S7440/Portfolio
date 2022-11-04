@@ -11,15 +11,15 @@ This portfolio offers a glimpse into the talents offered by me, Sky. While there
 Basically just scroll and click things I guess. It's fairly responsive? Check that out I guess?
 
 
-![web page](assets/media/photos/screencapture-s7440-github-io-Portfolio-2022-11-03-17_31_16.png)
+![web page](assets\media\photos\screencapture-file-C-Users-thoth-bootcamp-Portfolio-index-html-2022-11-03-19_56_07.png)
 
     
 
-![web page mobile](assets/media/photos/screencapture-s7440-github-io-Portfolio-2022-11-03-17_35_36.png)
+![web page mobile](assets\media\photos\screencapture-file-C-Users-thoth-bootcamp-Portfolio-index-html-2022-11-03-19_56_38.png)
 
 ## Credits
 
-I'd like to credit W3Schools.com,mdn reference, for giving me lots of inspiration and help when I was confused. Without being able to deconstruct and draw inspiration from them I would have never been able to finish this in time. 
+I'd like to credit W3Schools.com,mdn reference, and github.com/necolas for giving me lots of inspiration and help when I was confused. Without being able to deconstruct and draw inspiration from them I would have never been able to finish this in time. Also the normalize CSS is life saving.
 
 ## License
 
