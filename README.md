@@ -8,7 +8,7 @@ This portfolio offers a glimpse into the talents offered by me, Sky. While there
 
 ## Usage
 
-Basically just scroll and click things I guess. It's fairly responsive? Check that out I guess?
+Basically just scroll and click things I guess. It's fairly responsive? Check that out I guess? I mean it doesn't showcase much I'm a noob, cannon fodder, fuzzy, It's messy as heck but I'm an anxiety prone mess so given the time constraints I wasn't able to make it exactly how I wanted. I will note that I elected to use buttons instead of making the entire img clickable, this was an intentional choice as I thought it looked nice but if I wanted to make the img clickable you would enter the img inbetween your anchors. I also elected to put the contact information in the about me container as it made sense to me to put it there. It's a different style than the example, but it accomplishes all the goals in my opinion.
 
 
 ![web page](assets\media\photos\screencapture-file-C-Users-thoth-bootcamp-Portfolio-index-html-2022-11-03-19_56_07.png)
