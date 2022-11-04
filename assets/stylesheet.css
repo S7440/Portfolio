@@ -41,6 +41,7 @@ body,html {
   }
   button:hover {
     background-color: var(--secondary);
+    box-shadow: none;
   }
   .primary-header {
   background-color: var(--header);
