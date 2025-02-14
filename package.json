@@ -2,12 +2,12 @@
   "name": "S7440-Portfolio",
   "version": "1.0.0",
   "private": true,
-  "homepage": "https://S7440.github.io/Portfolio",
+  "homepage": "https://s7440.github.io/portfolio/",
   "scripts": {
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build",
     "start": "react-scripts start",
-    "build": "react-scripts build",
+    "build": "set NODE_OPTIONS=--openssl-legacy-provider && react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
