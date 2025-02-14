@@ -2,7 +2,7 @@
   "name": "S7440-Portfolio",
   "version": "1.0.0",
   "private": true,
-  "homepage": "https://S7440.github.io/S7440-Portfolio",
+  "homepage": "https://S7440.github.io/Portfolio",
   "scripts": {
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build",
